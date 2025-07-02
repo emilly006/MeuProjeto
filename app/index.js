@@ -11,6 +11,9 @@ import {
 const LotsOfStyles = () => {
   return (
     <View style={styles.container}>
+        <Image source={require('../assets/onda-1.png')} 
+      styles={styles.logo}     
+      />
       <Text style={styles.title}>Tela de Login</Text>
       <TextInput
         style={styles.input}
@@ -36,6 +39,9 @@ const LotsOfStyles = () => {
         Não tem conta? <Text style={styles.underline}>CADASTRAR</Text>
       </Text>
       <Text style={[styles.link, styles.underline]}>Esqueceu a senha?</Text>
+      <Image source={require('../assets/onda-2.png')}
+      styles={styles.logo}     
+      />
     </View>
   );
 };
