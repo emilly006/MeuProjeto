@@ -24,8 +24,8 @@ const LotsOfStyles = () => {
         secureTextEntry
       />
       <View style={styles.socialContainer}>
-        <Image source={require('./assets/google.png')} style={styles.socialIcon} />
-        <Image source={require('./assets/facebook.png')} style={styles.socialIcon} />
+        <Image source={require('../assets/google.png')} style={styles.socialIcon} />
+        <Image source={require('../assets/facebook.png')} style={styles.socialIcon} />
       </View>
 
       <TouchableOpacity style={styles.button}>
