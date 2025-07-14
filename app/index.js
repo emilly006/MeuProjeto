@@ -30,7 +30,6 @@ const LotsOfStyles = () => {
         <Image source={require('../assets/google.png')} style={styles.socialIcon} />
         <Image source={require('../assets/facebook.png')} style={styles.socialIcon} />
       </View>
-
       <TouchableOpacity style={styles.button}>
         <Text style={styles.buttonText}>Entrar</Text>
       </TouchableOpacity>

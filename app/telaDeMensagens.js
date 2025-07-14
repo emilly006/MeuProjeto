@@ -1,14 +1,20 @@
 import React from 'react';
 import {
-  StyleSheet,
+ StyleSheet,
   Text,
-  View
+  View,
+  TextInput,
+  Image,
+  TouchableOpacity,
 } from 'react-native';
 
 const LotsOfStyles = () => {
   return (
     <View style={styles.container}>
-          <Text style={styles.title}>Tela de Mensagens</Text>
+     <Text style={styles.title}>Tela de Mensagens</Text>
+    <TouchableOpacity style={styles.button}>
+     <Text style={styles.buttonText}>Entrar</Text>
+   </TouchableOpacity>
     </View>
   );
 };
